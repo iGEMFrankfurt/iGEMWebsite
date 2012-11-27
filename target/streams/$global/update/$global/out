@@ -445,6 +445,150 @@
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-mapper_2.9.1;2.5-M3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-mapper_2.9.1;2.5-M3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.liftweb#lift-mapper_2.9.1;2.5-M3 (resolved by releases): /Users/swish/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.liftweb#lift-mapper_2.9.1;2.5-M3 (resolved by releases): /Users/swish/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0m	checking net.liftweb#lift-mapper_2.9.1;2.5-M3 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: net.liftweb#lift-mapper_2.9.1;2.5-M3 from releases[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-mapper_2.9.1;2.5-M3 in releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-db_2.9.1;2.5-M3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-db_2.9.1;2.5-M3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/net.liftweb/lift-db_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.liftweb#lift-db_2.9.1;2.5-M3 (resolved by releases): /Users/swish/.ivy2/cache/net.liftweb/lift-db_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/net.liftweb/lift-db_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.liftweb#lift-db_2.9.1;2.5-M3 (resolved by releases): /Users/swish/.ivy2/cache/net.liftweb/lift-db_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0m	checking net.liftweb#lift-db_2.9.1;2.5-M3 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: net.liftweb#lift-db_2.9.1;2.5-M3 from releases[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-db_2.9.1;2.5-M3 in releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-proto_2.9.1;2.5-M3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-proto_2.9.1;2.5-M3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/net.liftweb/lift-proto_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.liftweb#lift-proto_2.9.1;2.5-M3 (resolved by releases): /Users/swish/.ivy2/cache/net.liftweb/lift-proto_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/net.liftweb/lift-proto_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.liftweb#lift-proto_2.9.1;2.5-M3 (resolved by releases): /Users/swish/.ivy2/cache/net.liftweb/lift-proto_2.9.1/ivy-2.5-M3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0m	checking net.liftweb#lift-proto_2.9.1;2.5-M3 from releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: net.liftweb#lift-proto_2.9.1;2.5-M3 from releases[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-proto_2.9.1;2.5-M3 in releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0[0m
@@ -472,8 +616,10 @@
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0->net.liftweb#lift-testkit_2.9.1;2.5-M3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-testkit_2.9.1;2.5-M3 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.liftweb#lift-testkit_2.9.1;2.5-M3[0m
@@ -590,6 +736,7 @@
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
@@ -621,6 +768,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.6 ...[0m
@@ -670,6 +818,27 @@
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.h2database#h2;1.3.167[0m
+[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.3.167 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/com.h2database/h2/ivy-1.3.167.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.h2database#h2;1.3.167 (resolved by public): /Users/swish/.ivy2/cache/com.h2database/h2/ivy-1.3.167.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/com.h2database/h2/ivy-1.3.167.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.h2database#h2;1.3.167 (resolved by public): /Users/swish/.ivy2/cache/com.h2database/h2/ivy-1.3.167.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0m	checking com.h2database#h2;1.3.167 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.h2database#h2;1.3.167 from public[0m
+[0m[[0mdebug[0m] [0m	found com.h2database#h2;1.3.167 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 [runtime][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 of rootConf=runtime[0m
@@ -936,6 +1105,111 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->runtime][0m
@@ -1058,6 +1332,8 @@
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=runtime[0m
@@ -1081,6 +1357,17 @@
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 [test][0m
@@ -1351,6 +1638,111 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->runtime][0m
@@ -1473,6 +1865,9 @@
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=test[0m
@@ -1496,6 +1891,17 @@
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 of rootConf=test[0m
@@ -2084,6 +2490,111 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->runtime][0m
@@ -2206,6 +2717,10 @@
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=compile-internal[0m
@@ -2229,6 +2744,17 @@
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 [optional][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 of rootConf=compile-internal[0m
@@ -2505,6 +3031,111 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->runtime][0m
@@ -2627,6 +3258,10 @@
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=runtime-internal[0m
@@ -2650,6 +3285,17 @@
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 [optional][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 of rootConf=runtime-internal[0m
@@ -2926,6 +3572,111 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-db_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-db_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-util_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-util_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-db_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->net.liftweb#lift-proto_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-proto_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->net.liftweb#lift-webkit_2.9.1;2.5-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-webkit_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-proto_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-mapper_2.9.1;2.5-M3->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftweb#lift-mapper_2.9.1;2.5-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.liftweb#lift-mapper_2.9.1;2.5-M3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 [compile->runtime][0m
@@ -3048,6 +3799,12 @@
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.h2database#h2;1.3.167 {compile=[default(compile)]} => dependency: com.h2database#h2;1.2.132 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.6->ch.qos.logback#logback-core;1.0.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-core;1.0.6 of rootConf=test-internal[0m
@@ -3071,6 +3828,17 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of ch.qos.logback#logback-classic;1.0.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->com.h2database#h2;1.3.167 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.h2database#h2;1.3.167 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 of rootConf=test-internal[0m
@@ -3395,7 +4163,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 of rootConf=container[0m
 [0m[[0mdebug[0m] [0mcontainer is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 35[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 39[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -3453,6 +4221,22 @@
 [0m[[0mdebug[0m] [0mSort done for : commons-fileupload#commons-fileupload;1.2.2[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-webkit_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
 [0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-db_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-proto_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -3466,10 +4250,13 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-actor_2.9.1;2.5-M3[0m
@@ -3484,6 +4271,8 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scalap;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.thoughtworks.paranamer#paranamer;2.4.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-testkit_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-httpclient#commons-httpclient;3.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-logging#commons-logging;1.0.4[0m
@@ -3558,8 +4347,10 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.1 in runtime-internal: excluding org.scala-lang#scala-library;2.9.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.1 in compile-internal: excluding org.scala-lang#scala-library;2.9.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-webkit_2.9.1;2.5-M3!lift-webkit_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-mapper_2.9.1;2.5-M3!lift-mapper_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0!lift-jquery-module_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.6!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-util_2.9.1;2.5-M3!lift-util_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-fileupload#commons-fileupload;1.2.2!commons-fileupload.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-actor_2.9.1;2.5-M3!lift-actor_2.9.1.jar[0m
@@ -3584,6 +4375,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.9.1!scalap.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.activation#activation;1.1!activation.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-db_2.9.1;2.5-M3!lift-db_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-proto_2.9.1;2.5-M3!lift-proto_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-testkit_2.9.1;2.5-M3!lift-testkit_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar[0m
@@ -3601,8 +4394,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-scalaz-core_2.9.1;6.0.1!specs2-scalaz-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2264ms :: artifacts dl 118ms[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 23[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4835ms :: artifacts dl 325ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 27[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -3667,6 +4460,21 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -3683,14 +4491,17 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 compile produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/compile-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 23[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 27[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -3755,6 +4566,21 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -3771,14 +4597,17 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 runtime produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/runtime-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 35[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 39[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -3850,6 +4679,24 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-db_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-proto_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -3866,12 +4713,15 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4[0m
@@ -3919,7 +4769,7 @@
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 provided produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 optional produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/optional-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 23[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 27[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -3984,6 +4834,21 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -4000,14 +4865,17 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 compile-internal produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/compile-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 23[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 27[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -4072,6 +4940,21 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -4088,14 +4971,17 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 runtime-internal produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/runtime-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 35[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 39[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-webkit_2.9.1;2.5-M3 / Number of dependencies = 10[0m
@@ -4167,6 +5053,24 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-mapper_2.9.1;2.5-M3 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-db_2.9.1;2.5-M3 / Number of dependencies = 6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-util_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-db_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.liftweb#lift-proto_2.9.1;2.5-M3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-proto_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on org.specs2#specs2_2.9.1;1.11, doesn't match org.specs2#specs2_2.9.1;1.12.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  net.liftweb#lift-mapper_2.9.1 depends on com.h2database#h2;1.2.147, doesn't match com.h2database#h2;1.3.167[0m
+[0m[[0mdebug[0m] [0mSort done for : net.liftweb#lift-mapper_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-db_2.9.1;2.5-M3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-proto_2.9.1;2.5-M3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : net.liftmodules#lift-jquery-module_2.9.1;2.5-M3-2.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : net.liftweb#lift-webkit_2.9.1;2.5-M3[0m
@@ -4183,12 +5087,15 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.5 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.5[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on com.h2database#h2;1.2.132, doesn't match com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  ch.qos.logback#logback-classic depends on javax.mail#mail;1.4, doesn't match javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0mSort done for : ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4[0m
@@ -4275,5 +5182,5 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.5-starter-template_2.9.1;0.0.1 container produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/target/resolution-cache/reports/net.liftweb-lift-2.5-starter-template_2.9.1/container-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2264ms resolve - 118ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (4835ms resolve - 325ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
