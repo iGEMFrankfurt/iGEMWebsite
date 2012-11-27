@@ -79,111 +79,6 @@
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.1.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.github.mpeltonen/sbt-idea/ivy-1.1.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.mpeltonen#sbt-idea;1.1.0 (resolved by public): /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.github.mpeltonen/sbt-idea/ivy-1.1.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.github.mpeltonen/sbt-idea/ivy-1.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.mpeltonen#sbt-idea;1.1.0 (resolved by public): /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.github.mpeltonen/sbt-idea/ivy-1.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0m	checking com.github.mpeltonen#sbt-idea;1.1.0 from public against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: com.github.mpeltonen#sbt-idea;1.1.0 from public[0m
-[0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.1.0 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-io#commons-io;2.0.1[0m
-[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-io#commons-io;2.0.1 (resolved by public): /Users/swish/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-io#commons-io;2.0.1 (resolved by public): /Users/swish/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m	checking commons-io#commons-io;2.0.1 from public against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-io#commons-io;2.0.1 from public[0m
-[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.0.1 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 (resolved by typesafe-ivy-releases): /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 (resolved by typesafe-ivy-releases): /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0m	checking com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 from typesafe-ivy-releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 from typesafe-ivy-releases[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 in typesafe-ivy-releases[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-core;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.1.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.sbteclipse#sbteclipse-core;2.1.0 (resolved by typesafe-ivy-releases): /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.sbteclipse#sbteclipse-core;2.1.0 (resolved by typesafe-ivy-releases): /Users/swish/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0m	checking com.typesafe.sbteclipse#sbteclipse-core;2.1.0 from typesafe-ivy-releases against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: com.typesafe.sbteclipse#sbteclipse-core;2.1.0 from typesafe-ivy-releases[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.1.0 in typesafe-ivy-releases[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.9.2;6.0.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.9.2;6.0.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/org.scalaz/scalaz-core_2.9.2/ivy-6.0.4.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-core_2.9.2;6.0.4 (resolved by public): /Users/swish/.ivy2/cache/org.scalaz/scalaz-core_2.9.2/ivy-6.0.4.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/org.scalaz/scalaz-core_2.9.2/ivy-6.0.4.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalaz#scalaz-core_2.9.2;6.0.4 (resolved by public): /Users/swish/.ivy2/cache/org.scalaz/scalaz-core_2.9.2/ivy-6.0.4.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0m	checking org.scalaz#scalaz-core_2.9.2;6.0.4 from public against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalaz#scalaz-core_2.9.2;6.0.4 from public[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.9.2;6.0.4 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=runtime[0m
@@ -222,55 +117,6 @@
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [test][0m
@@ -313,55 +159,6 @@
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [provided][0m
@@ -1719,55 +1516,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
@@ -2638,55 +2386,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
@@ -2734,55 +2433,6 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=test-internal[0m
@@ -3624,7 +3274,7 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=pom[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 48[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 43[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.github.siasia#xsbt-web-plugin_2.9.2 depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
@@ -3634,28 +3284,8 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.github.mpeltonen#sbt-idea depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.sbteclipse#sbteclipse-plugin depends on org.scala-sbt#sbt;0.12.0-RC3, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.sbteclipse#sbteclipse-core depends on org.scala-sbt#sbt;0.12.0-RC3, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.1 / Number of dependencies = 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#actions;0.12.1 / Number of dependencies = 16[0m
@@ -3900,8 +3530,6 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/default/default-a03e9d/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1!xsbt-web-plugin_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.1.0!sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0!sbteclipse-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1!plugin-commons_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
@@ -3917,9 +3545,6 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.1.0!sbteclipse-core.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.12.1!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.12.1!main.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.12.1!compiler-interface-bin.jar[0m
@@ -3966,8 +3591,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.1!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.1!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4767ms :: artifacts dl 235ms[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3970ms :: artifacts dl 105ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -3977,25 +3602,8 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT compile produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/compile-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -4005,25 +3613,8 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT runtime produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/runtime-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -4033,23 +3624,6 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT test produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 41[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
@@ -4288,7 +3862,7 @@
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT provided produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT optional produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/optional-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 48[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 43[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.github.siasia#xsbt-web-plugin_2.9.2 depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
@@ -4300,26 +3874,6 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.github.mpeltonen#sbt-idea depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.sbteclipse#sbteclipse-plugin depends on org.scala-sbt#sbt;0.12.0-RC3, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.sbteclipse#sbteclipse-core depends on org.scala-sbt#sbt;0.12.0-RC3, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.1 / Number of dependencies = 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#actions;0.12.1 / Number of dependencies = 16[0m
@@ -4552,7 +4106,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT compile-internal produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/compile-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -4562,25 +4116,8 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT runtime-internal produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/runtime-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 48[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 43[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.github.siasia#xsbt-web-plugin_2.9.2 depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
@@ -4592,26 +4129,6 @@
 [0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.github.mpeltonen#sbt-idea depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.sbteclipse#sbteclipse-plugin depends on org.scala-sbt#sbt;0.12.0-RC3, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbteclipse#sbteclipse-core;2.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.sbteclipse#sbteclipse-core depends on org.scala-sbt#sbt;0.12.0-RC3, doesn't match org.scala-sbt#sbt;0.12.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.9.2;6.0.4 / Number of dependencies = 1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.1 / Number of dependencies = 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#actions;0.12.1 / Number of dependencies = 16[0m
@@ -4852,5 +4369,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT docs produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT pom produced in /Users/swish/Coden/lift_25/scala_29/lift_basic/project/target/resolution-cache/reports/default-default-a03e9d/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4767ms resolve - 235ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3970ms resolve - 105ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
