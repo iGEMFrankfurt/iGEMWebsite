@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/swish/Coden/lift_25/scala_29/lift_basic/src/main/resources/props,/Users/swish/Coden/lift_25/scala_29/lift_basic/target/scala-2.9.1/classes/props)[0m
+[0m[[0mdebug[0m] [0m	(/Users/swish/Coden/lift_25/scala_29/lift_basic/src/main/resources/props/default.logback.xml,/Users/swish/Coden/lift_25/scala_29/lift_basic/target/scala-2.9.1/classes/props/default.logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/swish/Coden/lift_25/scala_29/lift_basic/src/main/resources/props/default.props,/Users/swish/Coden/lift_25/scala_29/lift_basic/target/scala-2.9.1/classes/props/default.props)[0m
