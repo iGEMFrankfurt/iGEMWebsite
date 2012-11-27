@@ -1,19 +1,18 @@
 [0m[[0mdebug[0m] [0mOther repositories:[0m
 [0m[[0mdebug[0m] [0mDefault repositories:[0m
 [0m[[0mdebug[0m] [0m	Raw(ProjectResolver(inter-project, mapped: ))[0m
-[0m[[0mdebug[0m] [0m	URLRepository(typesafe-ivy-releases,sbt.Patterns@14f4189a)[0m
-[0m[[0mdebug[0m] [0m	URLRepository(sbt-plugin-releases,sbt.Patterns@257b3135)[0m
-[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@3adba1cc)[0m
+[0m[[0mdebug[0m] [0m	URLRepository(typesafe-ivy-releases,sbt.Patterns@31f4a427)[0m
+[0m[[0mdebug[0m] [0m	URLRepository(sbt-plugin-releases,sbt.Patterns@34451610)[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@23ab8f3f)[0m
 [0m[[0mdebug[0m] [0m	public: http://repo1.maven.org/maven2/[0m
 [0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m
-[0m[[0minfo[0m] [0mResolving com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 ...[0m
-[0m[[0minfo[0m] [0mResolving com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 ...[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 ...[0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.1.0 ...[0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-core;2.1.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.9.2;6.0.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.12.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.12.0 ...[0m

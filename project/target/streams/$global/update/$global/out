@@ -7,75 +7,52 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.12.0-0.2.11.1.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 (resolved by public): /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.12.0-0.2.11.1.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: tried /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.11.3-0.2.11.1.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
 [0m[[0mdebug[0m] [0mtypesafe-ivy-releases: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.12.0-0.2.11.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 (resolved by public): /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.12.0-0.2.11.1.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0m	checking com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 from public against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 from public[0m
-[0m[[0mdebug[0m] [0m	found com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/com.github.siasia/plugin-commons_2.9.2/ivy-0.12.0-0.1.1.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 (resolved by public): /Users/swish/.ivy2/cache/com.github.siasia/plugin-commons_2.9.2/ivy-0.12.0-0.1.1.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/com.github.siasia/plugin-commons_2.9.2/ivy-0.12.0-0.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 (resolved by public): /Users/swish/.ivy2/cache/com.github.siasia/plugin-commons_2.9.2/ivy-0.12.0-0.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0m	checking com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 from public against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 from public[0m
-[0m[[0mdebug[0m] [0m	found com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: tried /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.11.3-0.2.11.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/ivy-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: resource not reachable for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: res=http://repo.typesafe.com/typesafe/ivy-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1[0m
+[0m[[0mdebug[0m] [0msbt-plugin-releases: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: tried /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.11.3-0.2.11.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: resource not reachable for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: res=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: tried /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.11.3-0.2.11.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /Users/swish/.ivy2/local/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /Users/swish/.ivy2/local/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: res=/Users/swish/.ivy2/local/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1[0m
+[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: tried /Users/swish/.ivy2/cache/com.github.siasia/xsbt-web-plugin_2.9.2/ivy-0.11.3-0.2.11.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/com/github/siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/xsbt-web-plugin_2.9.2-0.11.3-0.2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/xsbt-web-plugin_2.9.2-0.11.3-0.2.11.1.pom[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/com/github/siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/xsbt-web-plugin_2.9.2-0.11.3-0.2.11.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/xsbt-web-plugin_2.9.2-0.11.3-0.2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: resource not reachable for com/github/siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: res=http://repo1.maven.org/maven2/com/github/siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/xsbt-web-plugin_2.9.2-0.11.3-0.2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1[0m
+[0m[[33mwarn[0m] [0m	module not found: com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1[0m
+[0m[[33mwarn[0m] [0m==== typesafe-ivy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  http://repo.typesafe.com/typesafe/ivy-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== sbt-plugin-releases: tried[0m
+[0m[[33mwarn[0m] [0m  http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  /Users/swish/.ivy2/local/com.github.siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== public: tried[0m
+[0m[[33mwarn[0m] [0m  http://repo1.maven.org/maven2/com/github/siasia/xsbt-web-plugin_2.9.2/0.11.3-0.2.11.1/xsbt-web-plugin_2.9.2-0.11.3-0.2.11.1.pom[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.github.mpeltonen#sbt-idea;1.1.0[0m
@@ -164,16 +141,24 @@
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/swish/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
@@ -182,39 +167,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mNode has problem.  Skip loading[0m
+[0m[[0mdebug[0m] [0mproblem : not found[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
@@ -251,7 +207,6 @@
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
@@ -273,39 +228,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mNode has problem.  Skip loading[0m
+[0m[[0mdebug[0m] [0mproblem : not found[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
@@ -342,7 +268,6 @@
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
@@ -1638,39 +1563,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mNode has problem.  Skip loading[0m
+[0m[[0mdebug[0m] [0mproblem : not found[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
@@ -1707,7 +1603,6 @@
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
@@ -2557,39 +2452,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mNode has problem.  Skip loading[0m
+[0m[[0mdebug[0m] [0mproblem : not found[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
@@ -2626,7 +2492,6 @@
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
@@ -2654,39 +2519,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mNode has problem.  Skip loading[0m
+[0m[[0mdebug[0m] [0mproblem : not found[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.github.mpeltonen#sbt-idea;1.1.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-a03e9d;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.1.0 [compile->runtime][0m
@@ -2723,7 +2559,6 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
@@ -3576,8 +3411,8 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-a03e9d;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-a03e9d;0.1-SNAPSHOT of rootConf=pom[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 48[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 46[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.0 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.0 / Number of dependencies = 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#actions;0.12.0 / Number of dependencies = 16[0m
@@ -3771,14 +3606,6 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scala-sbt#precompiled-2_10_0-m4;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-sbt#sbt;0.12.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#classpath;0.12.0[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
@@ -3794,11 +3621,10 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.0[0m
@@ -3851,27 +3677,25 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in compile-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/swish/.ivy2/cache/resolved-default-default-a03e9d-0.1-SNAPSHOT.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1!xsbt-web-plugin_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.1.0!sbt-idea.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0!sbteclipse-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1!plugin-commons_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in provided: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in provided: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.1.0!sbteclipse-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in provided: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in provided: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.12.0!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.12.0!main.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.12.0!compiler-interface-bin.jar[0m
@@ -3918,19 +3742,16 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.0!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.0!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8595ms :: artifacts dl 273ms[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7309ms :: artifacts dl 187ms[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	::          UNRESOLVED DEPENDENCIES         ::[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	:: com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: not found[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
@@ -3946,19 +3767,12 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT compile produced in /Users/swish/.ivy2/cache/default-default-a03e9d-compile.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
@@ -3974,19 +3788,12 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT runtime produced in /Users/swish/.ivy2/cache/default-default-a03e9d-runtime.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
@@ -4002,6 +3809,7 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT test produced in /Users/swish/.ivy2/cache/default-default-a03e9d-test.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 41[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.0 / Number of dependencies = 6[0m
@@ -4240,8 +4048,8 @@
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT provided produced in /Users/swish/.ivy2/cache/default-default-a03e9d-provided.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT optional produced in /Users/swish/.ivy2/cache/default-default-a03e9d-optional.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 48[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 46[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.0 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.0 / Number of dependencies = 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#actions;0.12.0 / Number of dependencies = 16[0m
@@ -4435,16 +4243,6 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scala-sbt#precompiled-2_10_0-m4;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-sbt#sbt;0.12.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#classpath;0.12.0[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
@@ -4463,6 +4261,7 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#actions;0.12.0[0m
@@ -4504,18 +4303,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0-m4;0.12.0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT compile-internal produced in /Users/swish/.ivy2/cache/default-default-a03e9d-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.github.mpeltonen#sbt-idea;1.1.0[0m
@@ -4531,9 +4322,10 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT runtime-internal produced in /Users/swish/.ivy2/cache/default-default-a03e9d-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 48[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 46[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.0 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.0 / Number of dependencies = 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#actions;0.12.0 / Number of dependencies = 16[0m
@@ -4727,16 +4519,6 @@
 [0m[[0mdebug[0m] [0mSort done for : org.scala-sbt#precompiled-2_10_0-m4;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-sbt#sbt;0.12.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#classpath;0.12.0[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.1.0 / Number of dependencies = 3[0m
-[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.0.1 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
@@ -4755,6 +4537,7 @@
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#actions;0.12.0[0m
@@ -4804,5 +4587,63 @@
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT docs produced in /Users/swish/.ivy2/cache/default-default-a03e9d-docs.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-a03e9d;0.1-SNAPSHOT pom produced in /Users/swish/.ivy2/cache/default-default-a03e9d-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8595ms resolve - 273ms download)[0m
-[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0mdebug[0m] [0m	resolve done (7309ms resolve - 187ms download)[0m
+sbt.ResolveException: unresolved dependency: com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:211)
+	at sbt.IvyActions$$anonfun$update$1.apply(IvyActions.scala:122)
+	at sbt.IvyActions$$anonfun$update$1.apply(IvyActions.scala:121)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:114)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:114)
+	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:102)
+	at sbt.IvySbt.liftedTree1$1(Ivy.scala:49)
+	at sbt.IvySbt.action$1(Ivy.scala:49)
+	at sbt.IvySbt$$anon$3.call(Ivy.scala:58)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:75)
+	at xsbt.boot.Locks$GlobalLock.withChannelRetries$1(Locks.scala:58)
+	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:79)
+	at xsbt.boot.Using$.withResource(Using.scala:11)
+	at xsbt.boot.Using$.apply(Using.scala:10)
+	at xsbt.boot.Locks$GlobalLock.liftedTree1$1(Locks.scala:51)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:51)
+	at xsbt.boot.Locks$.apply0(Locks.scala:30)
+	at xsbt.boot.Locks$.apply(Locks.scala:27)
+	at sbt.IvySbt.withDefaultLogger(Ivy.scala:58)
+	at sbt.IvySbt.withIvy(Ivy.scala:99)
+	at sbt.IvySbt.withIvy(Ivy.scala:95)
+	at sbt.IvySbt$Module.withModule(Ivy.scala:114)
+	at sbt.IvyActions$.update(IvyActions.scala:121)
+	at sbt.Classpaths$$anonfun$work$1$1.apply(Defaults.scala:949)
+	at sbt.Classpaths$$anonfun$work$1$1.apply(Defaults.scala:947)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$54.apply(Defaults.scala:970)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$54.apply(Defaults.scala:968)
+	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:35)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:972)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:967)
+	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:45)
+	at sbt.Classpaths$.cachedUpdate(Defaults.scala:975)
+	at sbt.Classpaths$$anonfun$45.apply(Defaults.scala:855)
+	at sbt.Classpaths$$anonfun$45.apply(Defaults.scala:852)
+	at sbt.Scoped$$anonfun$hf10$1.apply(Structure.scala:586)
+	at sbt.Scoped$$anonfun$hf10$1.apply(Structure.scala:586)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:49)
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311)
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$5.work(System.scala:71)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:238)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+[0m[[31merror[0m] [0m(*:[31mupdate[0m) sbt.ResolveException: unresolved dependency: com.github.siasia#xsbt-web-plugin_2.9.2;0.11.3-0.2.11.1: not found[0m
